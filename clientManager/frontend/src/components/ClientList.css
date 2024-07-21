@@ -1,0 +1,42 @@
+.client-list {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .client-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .client-list th, .client-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .client-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .page-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .page-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .page-item.active {
+    background-color: #0056b3;
+  }
+  
